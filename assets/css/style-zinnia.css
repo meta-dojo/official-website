@@ -1322,13 +1322,13 @@ hr { position: relative; z-index: 5; }
 
 .ui-shape:after, .ui-shape:before { position: absolute; content: ''; height: 210px; background-size: contain; background-repeat: no-repeat; background-position: 50% 50%; transition: all .4s; }
 
-.ui-shape:before { top: 15%; left: -4%; width: 100px; background-image: url(../images/ui-shape-zinnia-a.svg); }
+.ui-shape:before { top: 15%; left: -4%; width: 100px; background-image: url(../../mdimages/images/scroll.png); }
 
-.ui-shape:after { bottom: 10%; right: -4%; width: 90px; background-image: url(../images/ui-shape-zinnia-b.svg); }
+.ui-shape:after { bottom: 10%; right: -4%; width: 90px; background-image: url(../../mdimages/images/Shuriken2.png); }
 
-.ui-shape-light:before { background-image: url(../images/ui-shape-light-a.svg); }
+.ui-shape-light:before { background-image: url(../../mdimages/images/ShurikenBanner.png); }
 
-.ui-shape-light:after { background-image: url(../images/ui-shape-light-b.svg); }
+.ui-shape-light:after { background-image: url(../../mdimages/images/KunaiBanner.png); }
 
 .ui-shape-s1:after { transform: rotate(60deg); }
 
@@ -4271,7 +4271,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .feature-icon-s1 { text-align: center; margin-left: 10px; margin-bottom: 40px; }
 
-.feature-icon-s1:after { position: absolute; content: ""; left: 50%; top: 50%; width: 62px; height: 62px; border: 2px solid rgba(254, 67, 80, 0.2); transform: translate(-50%, -50%) rotate(45deg); border-radius: 8px; }
+.feature-icon-s1:after { position: absolute; content: ""; left: 50%; top: 50%; width: 62px; height: 62px; border: 0px solid rgba(254, 67, 80, 0.2); transform: translate(-50%, -50%) rotate(45deg); border-radius: 8px; }
 
 .tc-light .feature-icon-s1:after { border: 2px solid rgba(254, 67, 80, 0.8); }
 
