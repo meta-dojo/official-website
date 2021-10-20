@@ -2250,14 +2250,21 @@ a .title { transition: all .4s; }
 @media (min-width: 768px) { .title-xl-2 { font-size: 2.2rem !important; }
   .title-xxl-grad { font-size: 200px; } }
 
-@media (min-width: 992px) { .title-xxl-grad { font-size: 250px; }
+@media (min-width: 992px) { 
+  .title-xxl-grad { font-size: 250px; }
   .feature-text-wd .title-md { font-size: 1.375rem; } }
 
-@media (min-width: 1200px) { .title-xl-s2 { font-size: 2.8rem !important; } }
+@media (min-width: 1200px) { 
+  .title-xl-s2 { font-size: 2.8rem !important; } 
+}
 
-@media (min-width: 1600px) { .title-xl-2 { font-size: 2.8rem !important; line-height: 1.3 !important; }
+@media (min-width: 1600px) { 
+  .title-xl-s1 { font-size: 2.8rem !important; line-height: 1.3 !important; }
+  .title-md {  font-size:1.675rem; line-height: 1.6; }
+  .title-xl-2 { font-size: 2.8rem !important; line-height: 1.3 !important; }
   .banner-s1 .title-xl-2 { font-size: 2.3rem !important; }
-  .title-xl-s3 { font-size: 2.75rem !important; } }
+  .title-xl-s3 { font-size: 2.75rem !important; } 
+}
 
 /** 03.04 List */
 .list li { line-height: 1.674; padding: 5px 0; position: relative; color: #415076; font-size: 14px; }
