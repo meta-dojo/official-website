@@ -2222,6 +2222,28 @@ a .title { transition: all .4s; }
 
 .title-sub { color: #d87032; }
 
+.detail-text-wrapper {
+  width: 400px;
+  height: 219.32px;
+  margin: auto;
+  margin-bottom: 0px;
+}
+.detail-text-wrapper-2 {
+  padding: 25px 45px;
+}
+.detail-text-title {
+  font-weight: bold;
+  color: white;
+  font-size: .7rem;
+}
+.detail-text {
+  color: white;
+  font-size: .8rem !important;
+}
+.detail-text:before {
+  background-color: transparent !important
+}
+
 @media (min-width: 576px) { .title { font-size: 2rem; }
   .title:not(:last-child) { margin-bottom: 1.25rem; }
   .title small { font-size: 50%; margin-top: 0.75rem; }
@@ -2249,11 +2271,12 @@ a .title { transition: all .4s; }
 
 @media (min-width: 768px) { .title-xl-2 { font-size: 2.2rem !important; }
   .title-xxl-grad { font-size: 200px; } 
+  .title-xl-s1 { font-size: 1.4rem !important; }
   .detail-text-wrapper {
-    width: 700px;
-    height: 300px;
-    margin-bottom: 150px;
-    /* margin-right: -100px; */
+    width: 400px;
+    height: 219.32px;
+    margin-bottom: 200px;
+    margin-right: 130px;
   }
   .detail-text-wrapper-2 {
     padding: 25px 45px;
@@ -2261,7 +2284,7 @@ a .title { transition: all .4s; }
   .detail-text-title {
     font-weight: bold;
     color: white;
-    font-size: .9rem;
+    font-size: .7rem;
   }
   .detail-text {
     color: white;
@@ -2274,13 +2297,15 @@ a .title { transition: all .4s; }
 
 @media (min-width: 992px) { 
   .title-xxl-grad { font-size: 250px; }
-  .feature-text-wd .title-md { font-size: 1.375rem; } }
-  .title-xl-s1 { font-size: 1.5rem !important; }
+  .feature-text-wd .title-md { font-size: 1.375rem; } 
+  /* .title-xl-s1 { font-size: 1.5rem !important; } */
   .detail-text-wrapper {
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 219.32px;
     margin-bottom: 200px;
-    margin-right: 80px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
   }
   .detail-text-wrapper-2 {
     padding: 20px 30px;
@@ -2297,6 +2322,8 @@ a .title { transition: all .4s; }
   .detail-text:before {
     background-color: transparent !important
   }
+}
+  
 
 @media (min-width: 1200px) { 
   .title-xl-s2 { font-size: 2.8rem !important; } 
@@ -2310,10 +2337,12 @@ a .title { transition: all .4s; }
   .banner-s1 .title-xl-2 { font-size: 2.3rem !important; }
   .title-xl-s3 { font-size: 2.75rem !important; } 
   .detail-text-wrapper {
-    width: 700px;
-    height: 300px;
-    margin-bottom: 150px;
-    margin-right: -100px;
+    width: 500px;
+    height: 274.18px;
+    margin-bottom: 200px;
+    /* margin-right: -100px; */
+    display: flex;
+    align-items: center;
   }
   .detail-text-wrapper-2 {
     padding: 25px 45px;
@@ -2321,7 +2350,7 @@ a .title { transition: all .4s; }
   .detail-text-title {
     font-weight: bold;
     color: white;
-    font-size: .9rem;
+    font-size: 1rem;
   }
   .detail-text {
     color: white;
