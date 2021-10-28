@@ -2248,12 +2248,55 @@ a .title { transition: all .4s; }
   .title-xxl-grad { font-size: 140px; } }
 
 @media (min-width: 768px) { .title-xl-2 { font-size: 2.2rem !important; }
-  .title-xxl-grad { font-size: 200px; } }
+  .title-xxl-grad { font-size: 200px; } 
+  .detail-text-wrapper {
+    width: 700px;
+    height: 300px;
+    margin-bottom: 150px;
+    /* margin-right: -100px; */
+  }
+  .detail-text-wrapper-2 {
+    padding: 25px 45px;
+  }
+  .detail-text-title {
+    font-weight: bold;
+    color: white;
+    font-size: .9rem;
+  }
+  .detail-text {
+    color: white;
+    font-size: .8rem !important;
+  }
+  .detail-text:before {
+    background-color: transparent !important
+  }
+}
 
 @media (min-width: 992px) { 
   .title-xxl-grad { font-size: 250px; }
   .feature-text-wd .title-md { font-size: 1.375rem; } }
   .title-xl-s1 { font-size: 1.5rem !important; }
+  .detail-text-wrapper {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 200px;
+    margin-right: 80px;
+  }
+  .detail-text-wrapper-2 {
+    padding: 20px 30px;
+  }
+  .detail-text-title {
+    font-weight: bold;
+    color: white;
+    font-size: .8rem;
+  }
+  .detail-text {
+    color: white;
+    font-size: .7rem !important;
+  }
+  .detail-text:before {
+    background-color: transparent !important
+  }
 
 @media (min-width: 1200px) { 
   .title-xl-s2 { font-size: 2.8rem !important; } 
@@ -2266,6 +2309,27 @@ a .title { transition: all .4s; }
   .title-xl-2 { font-size: 2.8rem !important; line-height: 1.3 !important; }
   .banner-s1 .title-xl-2 { font-size: 2.3rem !important; }
   .title-xl-s3 { font-size: 2.75rem !important; } 
+  .detail-text-wrapper {
+    width: 700px;
+    height: 300px;
+    margin-bottom: 150px;
+    margin-right: -100px;
+  }
+  .detail-text-wrapper-2 {
+    padding: 25px 45px;
+  }
+  .detail-text-title {
+    font-weight: bold;
+    color: white;
+    font-size: .9rem;
+  }
+  .detail-text {
+    color: white;
+    font-size: .8rem !important;
+  }
+  .detail-text:before {
+    background-color: transparent !important
+  }
 }
 
 /** 03.04 List */
