@@ -2222,9 +2222,17 @@ a .title { transition: all .4s; }
 
 .title-sub { color: #d87032; }
 
+.banner-wrap{
+
+}
+
+.video-and-text-wrapper{
+  padding-top: 50px;
+}
+
 .detail-text-wrapper {
-  width: 400px;
-  height: 219.32px;
+  max-width: 400px;
+  /* height: 219.32px; */
   margin: auto;
   margin-bottom: 0px;
 }
@@ -2273,7 +2281,7 @@ a .title { transition: all .4s; }
   .title-xxl-grad { font-size: 200px; } 
   .title-xl-s1 { font-size: 1.4rem !important; }
   .detail-text-wrapper {
-    width: 400px;
+    max-width: 400px;
     height: 219.32px;
     margin-bottom: 200px;
     margin-right: 130px;
@@ -2300,7 +2308,7 @@ a .title { transition: all .4s; }
   .feature-text-wd .title-md { font-size: 1.375rem; } 
   /* .title-xl-s1 { font-size: 1.5rem !important; } */
   .detail-text-wrapper {
-    width: 400px;
+    max-width: 400px;
     height: 219.32px;
     margin-bottom: 200px;
     margin-right: 150px;
@@ -2328,8 +2336,11 @@ a .title { transition: all .4s; }
 @media (min-width: 1200px) { 
   .title-xl-s2 { font-size: 2.8rem !important; } 
   .title-xl-s1 { font-size: 1.6rem !important; }
+  .video-and-text-wrapper{
+    padding-top: 100px;
+  }
   .detail-text-wrapper {
-    width: 500px;
+    max-width: 500px;
     height: 274.18px;
     margin-bottom: 200px;
     /* margin-right: -100px; */
@@ -2360,7 +2371,7 @@ a .title { transition: all .4s; }
   .banner-s1 .title-xl-2 { font-size: 2.3rem !important; }
   .title-xl-s3 { font-size: 2.75rem !important; } 
   .detail-text-wrapper {
-    width: 500px;
+    max-width: 500px;
     height: 274.18px;
     margin-bottom: 200px;
     /* margin-right: -100px; */
