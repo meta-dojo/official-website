@@ -5216,7 +5216,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .roadmap-time-s5:after { left: -39px; }
   .roadmap-left .roadmap-time-s5:after { right: -40px; left: auto; } }
 
-@media (min-width: 992px) { .roadmap { display: flex; }
+/* @media (min-width: 992px) { .roadmap { display: flex; }
   .roadmap-s1:before, .roadmap-s1:after { top: 41px; height: 0; width: 50%; border-top-width: 3px; border-top-style: solid; border-left-width: 0; }
   .roadmap-s1:before { left: 0; }
   .flex-row-reverse .roadmap-s1:before { right: 0; left: auto; }
@@ -5287,7 +5287,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .roadmap-step:before { left: -86px; }
   .roadmap-step:after { width: 73px; left: -73px; }
   .roadmap-step-s1:before { left: 50%; }
-  .roadmap-step-s3:after { left: 50%; width: 2px; } }
+  .roadmap-step-s3:after { left: 50%; width: 2px; } } */
 
 /** 04.091 Token */
 .token-info { border: 1px solid rgba(254, 67, 80, 0.2); border-radius: 8px; padding: 18px 20px 0; margin-bottom: 30px; }
