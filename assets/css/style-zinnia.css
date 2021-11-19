@@ -2252,6 +2252,17 @@ a .title { transition: all .4s; }
   background-color: transparent !important
 }
 
+.partner-logo-s2 {
+  min-width: 200px;
+}
+
+.roadmap-time-wrapper {
+  position: relative;
+  left: -130px;
+  top: 35px;
+  font-size: large;
+}
+
 @media (min-width: 576px) { .title { font-size: 2rem; }
   .title:not(:last-child) { margin-bottom: 1.25rem; }
   .title small { font-size: 50%; margin-top: 0.75rem; }
@@ -2275,7 +2286,8 @@ a .title { transition: all .4s; }
   .title-s5.title-sm { font-size: 0.9rem; }
   .title-s5.title-sm span:first-child { font-size: 1.25rem; }
   .title-xl-2 { font-size: 1.8rem !important; }
-  .title-xxl-grad { font-size: 140px; } }
+  .title-xxl-grad { font-size: 140px; } 
+}
 
 @media (min-width: 768px) { .title-xl-2 { font-size: 2.2rem !important; }
   .title-xxl-grad { font-size: 200px; } 
