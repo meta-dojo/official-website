@@ -2263,6 +2263,27 @@ a .title { transition: all .4s; }
   font-size: large;
 }
 
+.metadojo-team-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.metadojo-team-socialmedia-ul{
+  padding-top: 3px !important;
+  margin-left: 10px !important;
+}
+
+.metadojo-team-socialmedia-li{
+  padding: 0 2px !important;
+}
+
+.metadojo-team-bio {
+  display: block;
+  font-style: italic;
+  font-size: small;
+}
+
 @media (min-width: 576px) { .title { font-size: 2rem; }
   .title:not(:last-child) { margin-bottom: 1.25rem; }
   .title small { font-size: 50%; margin-top: 0.75rem; }
