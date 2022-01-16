@@ -43,9 +43,7 @@
     background-color: #f2faff !important;
 }
     </style>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 </head>  
 <body class="nk-body body-wider mode-onepage">
 	<div class="nk-wrap">
@@ -993,17 +991,17 @@
                             <div class="col-sm-6 col-lg-3">
                                 <div class="team team-s3 animated" data-animate="fadeInUp" data-delay=".3">
                                     <div class="team-photo round-full team-photo-bg">
-                                        <img src="mdimages/team/echo3.jpg" alt="team" class="round-full">
+                                        <img onclick="toggleBio('#eg')" src="mdimages/team/echo3.jpg" alt="team" class="round-full">
                                     </div>
                                     <h5 class="team-name title title-sm metadojo-team-title">
-                                        <span>Echo Guo</span>
+                                        <span class="metadojo-team-name" onclick="toggleBio('#eg')">Echo Guo</span>
                                         <ul class="team-social team-social-s2 metadojo-team-socialmedia-ul">
                                             <!-- <li class="metadojo-team-socialmedia-li"><a href="https://www.linkedin.com/in/echo-guo-nz/"><em class="fab fa-linkedin-in"></em></a></li> -->
                                             <li class="metadojo-team-socialmedia-li"><a href="https://twitter.com/EchoGuo77"><em class="fab fa-twitter"></em></a></li>  
                                         </ul>
                                     </h5>
                                     <span class="team-position">Co-Founder & CEO</span>
-                                    <blockquote>
+                                    <blockquote id="eg" class="metadojo-bio-wrapper">
                                         <p class="metadojo-team-bio">Has a fur baby named Meta</p>
                                     </blockquote>
                                     <!-- <ul class="team-social team-social-s2">
@@ -1017,17 +1015,17 @@
                                 <div class="team team-s3 animated" data-animate="fadeInUp" data-delay=".6">
                                     <div class="team-photo round-full team-photo-bg">                                        
                                         <!-- <img src="mdimages/team/allan.jpg" alt="team" class="round-full"> -->
-                                        <img src="mdimages/team/allan3.jpg" alt="team" class="round-full">
+                                        <img onclick="toggleBio('#al')" src="mdimages/team/allan3.jpg" alt="team" class="round-full">
                                     </div>
                                     <h5 class="team-name title title-sm metadojo-team-title">
-                                        <span>Allan Liang</span> 
+                                        <span class="metadojo-team-name" onclick="toggleBio('#al')">Allan Liang</span> 
                                         <ul class="team-social team-social-s2 metadojo-team-socialmedia-ul">
                                             <!-- <li class="metadojo-team-socialmedia-li"><a href="https://www.linkedin.com/in/allan-liang-0a8555124/"><em class="fab fa-linkedin-in"></em></a></li>   -->
                                             <li class="metadojo-team-socialmedia-li"><a href="https://twitter.com/AllanLiang10"><em class="fab fa-twitter"></em></a></li>  
                                         </ul>
                                     </h5>
                                     <span class="team-position">Co-Founder & CTO Game</span>
-                                    <blockquote>
+                                    <blockquote id="al" class="metadojo-bio-wrapper">
                                         <p class="metadojo-team-bio">Obsessed with the infinite possibilities the Metaverse opens</p>
                                     </blockquote>
                                     <!-- <ul class="team-social team-social-s2">
@@ -1041,17 +1039,17 @@
                                 <div class="team team-s3 animated" data-animate="fadeInUp" data-delay=".6">
                                     <div class="team-photo round-full team-photo-bg">                                        
                                         <!-- <img src="mdimages/team/kai.jpg" alt="team" class="round-full"> -->
-                                        <img src="mdimages/team/kai3.jpg" alt="team" class="round-full">
+                                        <img onclick="toggleBio('#kz')" src="mdimages/team/kai3.jpg" alt="team" class="round-full">
                                     </div>
                                     <h5 class="team-name title title-sm metadojo-team-title">
-                                        <span>Kai Zhang</span> 
+                                        <span class="metadojo-team-name" onclick="toggleBio('#kz')">Kai Zhang</span> 
                                         <ul class="team-social team-social-s2 metadojo-team-socialmedia-ul">
                                             <!-- <li class="metadojo-team-socialmedia-li"><a href="https://www.linkedin.com/in/kai-zhang-02676a77/"><em class="fab fa-linkedin-in"></em></a></li>   -->
                                             <li class="metadojo-team-socialmedia-li"><a href="https://twitter.com/kai_zhang66"><em class="fab fa-twitter"></em></a></li>  
                                         </ul>
                                     </h5>
                                     <span class="team-position">Co-Founder & CTO Blockchain</span>
-                                    <blockquote>
+                                    <blockquote id="kz" class="metadojo-bio-wrapper">
                                         <p class="metadojo-team-bio">Passionate about metaverse mass adoption</p>
                                     </blockquote>
                                     <!-- <ul class="team-social team-social-s2">
@@ -1079,17 +1077,17 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="team team-s3 animated" data-animate="fadeInUp" data-delay=".6">
                                     <div class="team-photo round-full team-photo-bg">                                        
-                                        <img src="mdimages/team/ida3.jpg" alt="team" class="round-full">
+                                        <img onclick="toggleBio('#iw')" src="mdimages/team/ida3.jpg" alt="team" class="round-full">
                                     </div>
                                     <h5 class="team-name title title-sm metadojo-team-title">
-                                        <span>Ida Wahap</span> 
+                                        <span class="metadojo-team-name" onclick="toggleBio('#iw')">Ida Wahap</span> 
                                         <ul class="team-social team-social-s2 metadojo-team-socialmedia-ul">
                                             <!-- <li class="metadojo-team-socialmedia-li"><a href="https://www.linkedin.com/in/wahidawahap/"><em class="fab fa-linkedin-in"></em></a></li>   -->
                                             <li class="metadojo-team-socialmedia-li"><a href="https://twitter.com/IdaWahap"><em class="fab fa-twitter"></em></a></li>  
                                         </ul>
                                     </h5>
                                     <span class="team-position">Community & Partnership Manager</span>
-                                    <blockquote>
+                                    <blockquote id="iw" class="metadojo-bio-wrapper">
                                         <p class="metadojo-team-bio">Loves fishing (not phishing), playing Legos and online games. A strong advocate of mental health awareness</p>
                                     </blockquote>
                                     <!-- <ul class="team-social team-social-s2"> 
@@ -1101,17 +1099,17 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="team team-s3 animated" data-animate="fadeInUp" data-delay=".6">
                                     <div class="team-photo round-full team-photo-bg">                                        
-                                        <img src="mdimages/team/leo3.jpg" alt="team" class="round-full">
+                                        <img onclick="toggleBio('#ll')" src="mdimages/team/leo3.jpg" alt="team" class="round-full">
                                     </div>
                                     <h5 class="team-name title title-sm metadojo-team-title">
-                                        <span>Leo Lou</span> 
+                                        <span class="metadojo-team-name" onclick="toggleBio('#ll')">Leo Lou</span> 
                                         <ul class="team-social team-social-s2 metadojo-team-socialmedia-ul">
                                             <!-- <li class="metadojo-team-socialmedia-li"><a href="https://www.linkedin.com/in/leo-lou-592741a3/"><em class="fab fa-linkedin-in"></em></a></li>   -->
                                             <li class="metadojo-team-socialmedia-li"><a href="https://twitter.com/LeoMetaverser"><em class="fab fa-twitter"></em></a></li>  
                                         </ul>
                                     </h5>
                                     <span class="team-position">Senior Software Developer</span>
-                                    <blockquote>
+                                    <blockquote id="ll" class="metadojo-bio-wrapper">
                                         <p class="metadojo-team-bio">His interests range from writing clean, low latency code in various languages to Forex Trading and cooking</p>
                                     </blockquote>
                                     <!-- <ul class="team-social team-social-s2">
@@ -1124,17 +1122,17 @@
                             <div class="col-sm-6 col-lg-3">
                                 <div class="team team-s3 animated" data-animate="fadeInUp" data-delay=".4">
                                     <div class="team-photo round-full team-photo-bg">                                 
-                                        <img src="mdimages/team/deep3.jpg" alt="team" class="round-full">
+                                        <img onclick="toggleBio('#dc')" src="mdimages/team/deep3.jpg" alt="team" class="round-full">
                                     </div>
                                     <h5 class="team-name title title-sm metadojo-team-title">
-                                        <span>Deep Chahal</span> 
+                                        <span class="metadojo-team-name" onclick="toggleBio('#dc')">Deep Chahal</span> 
                                         <ul class="team-social team-social-s2 metadojo-team-socialmedia-ul">
                                             <!-- <li class="metadojo-team-socialmedia-li"><a href="https://www.linkedin.com/in/deepchahal/"><em class="fab fa-linkedin-in"></em></a></li>   -->
                                             <li class="metadojo-team-socialmedia-li"><a href="https://twitter.com/deep_chahal5"><em class="fab fa-twitter"></em></a></li>  
                                         </ul>
                                     </h5>
                                     <span class="team-position">Senior Game Artist</span>
-                                    <blockquote>
+                                    <blockquote id="dc" class="metadojo-bio-wrapper">
                                         <p class="metadojo-team-bio">His passion is to develop high-definition, photo-realistic assets with many types of simulation work</p>
                                     </blockquote>
                                     <!-- <ul class="team-social team-social-s2">
@@ -1147,18 +1145,18 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="team team-s3 animated" data-animate="fadeInUp" data-delay=".6">
                                     <div class="team-photo round-full team-photo-bg">                              
-                                        <img src="mdimages/team/steven3.jpg" alt="team" class="round-full">
+                                        <img onclick="toggleBio('#sj')" src="mdimages/team/steven3.jpg" alt="team" class="round-full">
                                     </div>
                                     <!-- <h5 class="team-name title title-sm">Steven Jurriaans</h5> -->
                                     <h5 class="team-name title title-sm metadojo-team-title">
-                                        <span>Steven Jurriaans</span> 
+                                        <span class="metadojo-team-name" onclick="toggleBio('#sj')">Steven Jurriaans</span> 
                                         <ul class="team-social team-social-s2 metadojo-team-socialmedia-ul">
                                             <!-- <li class="metadojo-team-socialmedia-li"><a href="https://www.linkedin.com/in/stevenjurriaans/"><em class="fab fa-linkedin-in"></em></a></li>   -->
                                             <li class="metadojo-team-socialmedia-li"><a href="https://twitter.com/StevenJurriaans"><em class="fab fa-twitter"></em></a></li>  
                                         </ul>
                                     </h5>
                                     <span class="team-position">Game Artist</span>
-                                    <blockquote>
+                                    <blockquote id="sj" class="metadojo-bio-wrapper">
                                         <p class="metadojo-team-bio">Grew up playing video games and has developed a passion for digital art and 3D worlds. His dream is to build truly unforgettable experiences</p>
                                     </blockquote>
                                     
@@ -1172,17 +1170,17 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="team team-s3 animated" data-animate="fadeInUp" data-delay=".6">
                                     <div class="team-photo round-full team-photo-bg">                                
-                                        <img src="mdimages/team/hana3.jpg" alt="team" class="round-full">
+                                        <img onclick="toggleBio('#hd')" src="mdimages/team/hana3.jpg" alt="team" class="round-full">
                                     </div>
                                     <h5 class="team-name title title-sm metadojo-team-title">
-                                        <span>Hannah Do</span> 
+                                        <span class="metadojo-team-name" onclick="toggleBio('#hd')">Hannah Do</span> 
                                         <ul class="team-social team-social-s2 metadojo-team-socialmedia-ul" style="visibility: hidden;">
                                             <li class="metadojo-team-socialmedia-li"><a href="#"><em class="fab fa-twitter"></em></a></li>  
                                             <!-- <li class="metadojo-team-socialmedia-li"><a href="https://www.linkedin.com/in/hanhsoftwaretesting/"><em class="fab fa-linkedin-in"></em></a></li>   -->
                                         </ul>
                                     </h5>
                                     <span class="team-position">Quality Assurance Manager</span>
-                                    <blockquote>
+                                    <blockquote id="hd" class="metadojo-bio-wrapper">
                                         <p class="metadojo-team-bio">Passionate about quality of product delivery</p>
                                     </blockquote>
                                     <!-- <ul class="team-social team-social-s2">
@@ -1269,12 +1267,15 @@
                                         <!-- <img src="mdimages/team/justin.jpg" alt="team" class="round-full"> -->
                                         <img src="mdimages/team/justin2.png" alt="team" class="round-full">
                                     </div>
-                                    <h5 class="team-name title title-sm">Justin Pham</h5>
-                                    <span class="team-position">Advisor - Blockchain </span><br />                     
-                                    <ul class="team-social team-social-s2">
-                                        <!-- <li><a href="https://www.linkedin.com/in/justinphamit/"><em class="fab fa-linkedin-in"></em></a></li> -->
-                                        <li><a href="https://twitter.com/justinphamnz"><em class="fab fa-twitter"></em></a></li> 
-                                    </ul>
+
+                                    <h5 class="team-name title title-sm metadojo-team-title">
+                                        <span class="metadojo-team-name">Justin Pham</span> 
+                                        <ul class="team-social team-social-s2 metadojo-team-socialmedia-ul">
+                                            <li class="metadojo-team-socialmedia-li"><a href="https://twitter.com/justinphamnz"><em class="fab fa-twitter"></em></a></li>  
+                                            <!-- <li><a href="https://www.linkedin.com/in/justinphamit/"><em class="fab fa-linkedin-in"></em></a></li> -->
+                                        </ul>
+                                    </h5>
+                                    <span class="team-position">Advisor - Blockchain</span>
                                 </div>
                             </div><!-- .col -->
                             <div class="col-sm-6 col-lg-3">
@@ -1283,54 +1284,58 @@
                                         <!-- <img src="mdimages/team/shannon.jpg" alt="team" class="round-full"> -->
                                         <img src="mdimages/team/shannon2.png" alt="team" class="round-full">
                                     </div>
-                                    <h5 class="team-name title title-sm">Shannon Christie</h5>
-                                    <span class="team-position">Advisor - Game</span> <br />       
-                                    <ul class="team-social team-social-s2">
-                                        <!-- <li><a href="https://www.linkedin.com/in/shannonchristie/"><em class="fab fa-linkedin-in"></em></a></li> -->
-                                        <li><a href="https://twitter.com/ShannonC_NZ"><em class="fab fa-twitter"></em></a></li> 
-                                    </ul>
+
+                                    <h5 class="team-name title title-sm metadojo-team-title">
+                                        <span class="metadojo-team-name">Shannon Christie</span> 
+                                        <ul class="team-social team-social-s2 metadojo-team-socialmedia-ul">
+                                            <li class="metadojo-team-socialmedia-li"><a href="https://twitter.com/ShannonC_NZ"><em class="fab fa-twitter"></em></a></li>  
+                                            <!-- <li><a href="https://www.linkedin.com/in/shannonchristie/"><em class="fab fa-linkedin-in"></em></a></li> -->
+                                        </ul>
+                                    </h5>
+                                    <span class="team-position">Advisor - Game</span>
                                 </div>                                
                             </div><!-- .col -->
-                            <div class="col-sm-6 col-lg-3">
+
+                            <!-- <div class="col-sm-6 col-lg-3">
                                 <div class="team team-s3 animated" data-animate="fadeInUp" data-delay=".8">
-                                    <div class="team-photo round-full team-photo-bg">                                        
-                                        <!-- <img src="mdimages/team/justin.jpg" alt="team" class="round-full"> -->
+                                    <div class="team-photo round-full team-photo-bg">                                 
                                         <img src="mdimages/team/jerry.png" alt="team" class="round-full">
                                     </div>
                                     <h5 class="team-name title title-sm">Jerry Ren</h5>
                                     <span class="team-position">Advisor - Blockchain </span><br />                     
                                     <ul class="team-social team-social-s2">
-                                        <!-- <li><a href="https://www.linkedin.com/in/jerryjren/"><em class="fab fa-linkedin-in"></em></a></li> -->
                                         <li><a href="https://twitter.com/jerryjren"><em class="fab fa-twitter"></em></a></li> 
                                     </ul>
                                 </div>
-                            </div><!-- .col -->     
+                            </div> 
                             <div class="col-sm-6 col-lg-3">
                                 <div class="team team-s3 animated" data-animate="fadeInUp" data-delay=".9">
-                                    <div class="team-photo round-full team-photo-bg">                                        
-                                        <!-- <img src="mdimages/team/daniel.jpg" alt="team" class="round-full"> -->
+                                    <div class="team-photo round-full team-photo-bg">                                  
                                         <img src="mdimages/team/daniel2.png" alt="team" class="round-full">
                                     </div>
                                     <h5 class="team-name title title-sm">Daniel Choi</h5>
                                     <span class="team-position">Advisor - Virtual World</span><br />
                                     <ul class="team-social team-social-s2">
-                                        <!-- <li><a href="https://www.linkedin.com/in/dotnet-daniel-choi/"><em class="fab fa-linkedin-in"></em></a></li> -->
                                         <li><a href="https://twitter.com/D_cwm"><em class="fab fa-twitter"></em></a></li> 
                                     </ul>
                                 </div>                                
-                            </div><!-- .col -->      
+                            </div>      -->
 
                             <div class="col-sm-6 col-lg-3">
                                 <div class="team team-s3 animated" data-animate="fadeInUp" data-delay=".9">
                                     <div class="team-photo round-full team-photo-bg">                                  
-                                        <img src="mdimages/team/justin_goldston.png" alt="team" class="round-full">
+                                        <img onclick="toggleBio('#jg')" src="mdimages/team/justin_goldston.png" alt="team" class="round-full">
                                     </div>
-                                    <h5 class="team-name title title-sm">Professor Justin Goldston</h5>
-                                    <span class="team-position">Advisor - Metaverse Research</span><br />
-                                    <ul class="team-social team-social-s2">
-                                        <!-- <li><a href="https://www.linkedin.com/in/dotnet-daniel-choi/"><em class="fab fa-linkedin-in"></em></a></li> -->
-                                        <li><a href="https://twitter.com/phd_justin"><em class="fab fa-twitter"></em></a></li> 
-                                    </ul>
+                                    <h5 class="team-name title title-sm metadojo-team-title">
+                                        <span class="metadojo-team-name" onclick="toggleBio('#jg')">Professor Justin Goldston</span> 
+                                        <ul class="team-social team-social-s2 metadojo-team-socialmedia-ul">
+                                            <li class="metadojo-team-socialmedia-li"><a href="https://twitter.com/phd_justin"><em class="fab fa-twitter"></em></a></li>  
+                                        </ul>
+                                    </h5>
+                                    <span class="team-position">Advisor - Metaverse Research</span>
+                                    <blockquote id="jg" class="metadojo-bio-wrapper">
+                                        <p class="metadojo-team-bio">Dr. Justin Goldston is a Professor at Penn State University, as well as a Visiting Professor and Graduate Advisory Board Member at Georgetown University. Goldston looks to bring his academic research focus on blockchain, the metaverse, and sustainability into practice with The SydTek DAO within the Bit.Country ecosystem. Outside of being a five-time TEDx speaker where he discussed blockchain in 2019, Goldston has over 20 years of experience consulting with organizations worldwide on enterprise-wide digital transformation initiatives. Goldston has also evaluated doctoral programs for the Massachusetts Department of Higher Education, and has led and assisted in the development of Blockchain, Sustainability, Artificial Intelligence, and Business Analytics programs and courses at Georgetown University, Texas A&M University, The University of the Cumberlands, and the International University of Applied Science in Bad Honnef, Germany</p>
+                                    </blockquote>
                                 </div>                                
                             </div>
                                              
@@ -1338,6 +1343,18 @@
                     </div>
                 </div>
             </section>
+
+            <script>
+                var toggleBio = function(bioId){
+                    try {
+                        var $bio = $(bioId)
+
+                        $bio.toggle("fast")
+                    } catch (error) {
+                        console.log(error);
+                    }
+                }
+            </script>
 
             <section class="section bg-theme tc-light" id="metaverse-career-academy">
                 <div class="container">

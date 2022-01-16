@@ -2284,6 +2284,18 @@ a .title { transition: all .4s; }
   font-size: small;
 }
 
+.metadojo-bio-wrapper {
+  display: none;
+}
+
+.metadojo-team-name {
+  cursor: pointer;
+}
+
+.team-photo img {
+  cursor: pointer;
+}
+
 @media (min-width: 576px) { .title { font-size: 2rem; }
   .title:not(:last-child) { margin-bottom: 1.25rem; }
   .title small { font-size: 50%; margin-top: 0.75rem; }
