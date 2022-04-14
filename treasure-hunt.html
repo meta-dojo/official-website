@@ -1,317 +1,676 @@
 <!DOCTYPE html>
 <html lang="zxx" class="js">
-<head>
-	<meta charset="utf-8">
-    <meta name="author" content="metadojo.io">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Bridging the gap between Web2 & Web3.">
-    <meta property="og:title" content="MetaDojo.io - NFT Premises Ready for Your Website & Metaverse." />
-    <meta property="og:description" content="Bridging the gap between Web2 & Web3." />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="metadojo.io" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Bridging the gap between Web2 & Web3." />
+    <meta
+      property="og:title"
+      content="MetaDojo.io - NFT Premises Ready for Your Website & Metaverse."
+    />
+    <meta
+      property="og:description"
+      content="Bridging the gap between Web2 & Web3."
+    />
     <meta property="og:type" content="website" />
     <meta property="og:author" content="MetaDojo.io" />
     <meta property="og:section" content="" />
     <meta property="og:url" content="https://metadojo.io" />
-    <meta property="og:image" content="https://metadojo.io/mdimages/social_bg.jpg" />
+    <meta
+      property="og:image"
+      content="https://metadojo.io/mdimages/social_bg.jpg"
+    />
     <meta property="og:image:alt" content="Metadojo.io" />
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:site" content="@MetaDojo.io" />
-    <meta property="twitter:image" content="https://metadojo.io/mdimages/social_bg.jpg" />
+    <meta
+      property="twitter:image"
+      content="https://metadojo.io/mdimages/social_bg.jpg"
+    />
 
     <!-- Fav Icon  -->
-    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
     <!-- Site Title  -->
     <title>MetaDojo | NFT Premises Ready for Your Website & Metaverse</title>
     <!-- Bundle and Base CSS -->
-    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=1930">
-    <link rel="stylesheet" href="assets/css/style-zinnia.css?ver=1930" id="changeTheme">
+    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=1930" />
+    <link
+      rel="stylesheet"
+      href="assets/css/style-zinnia.css?ver=1930"
+      id="changeTheme"
+    />
     <!-- Extra CSS -->
-    <link rel="stylesheet" href="assets/css/theme.css?ver=1930">    
+    <link rel="stylesheet" href="assets/css/theme.css?ver=1930" />
     <style>
-        .bg-theme-grad-alt { background-image: linear-gradient(to right, #d34ca1 0%, #614ecf 100%) !important;}
-        .bg-theme {
-            background-image: linear-gradient(to right, #200113 0%, #6e4dca 100%) !important;
-        }
-        .partner-logo-s2 img, .partner-logo-s3 img{max-height: 200px;}
-        .partner-logo-s2, .partner-logo-s3 {max-width: 30%;   width: 25%;}
-         h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {  color: #000000;} 
-        .team-photo-bg:before { background-image: linear-gradient(0deg, #3fdcff 0%, #d04ca1 100%);}
-        .bg-light-alt {background-color: #f5fbff !important;}
-        .bg-theme-grad {
-            background-image: linear-gradient(to right, #d34ca1 0%, #614ecf 100%) !important;
-        }
-        .bg-white {
-    background-color: #f2faff !important;
-}
+      .bg-theme-grad-alt {
+        background-image: linear-gradient(
+          to right,
+          #d34ca1 0%,
+          #614ecf 100%
+        ) !important;
+      }
+      .bg-theme {
+        background-image: linear-gradient(
+          to right,
+          #200113 0%,
+          #6e4dca 100%
+        ) !important;
+      }
+      .partner-logo-s2 img,
+      .partner-logo-s3 img {
+        max-height: 200px;
+      }
+      .partner-logo-s2,
+      .partner-logo-s3 {
+        max-width: 30%;
+        width: 25%;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      .h1,
+      .h2,
+      .h3,
+      .h4,
+      .h5,
+      .h6 {
+        color: #000000;
+      }
+      .team-photo-bg:before {
+        background-image: linear-gradient(0deg, #3fdcff 0%, #d04ca1 100%);
+      }
+      .bg-light-alt {
+        background-color: #f5fbff !important;
+      }
+      .bg-theme-grad {
+        background-image: linear-gradient(
+          to right,
+          #d34ca1 0%,
+          #614ecf 100%
+        ) !important;
+      }
+      .bg-white {
+        background-color: #f2faff !important;
+      }
     </style>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script> -->
-    <script type="text/javascript" src="https://widget.gleamjs.io/e.js" async="true"></script>
+    <script
+      type="text/javascript"
+      src="https://widget.gleamjs.io/e.js"
+      async="true"
+    ></script>
     <script src="https://preview.babylonjs.com/viewer/babylon.viewer.js"></script>
-</head>  
-<body class="nk-body body-wider mode-onepage">
-	<div class="nk-wrap">
-		<header class="nk-header page-header is-transparent is-sticky is-shrink" id="header">
-		    <!-- Header @s -->
-            <div class="header-main">
-                <div class="header-container header-container-s1">
-                    <div class="header-wrap">
-                        <!-- Logo @s -->
-                        <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
-                            <a href="./" class="logo-link">
-                                <img class="logo-dark" src="mdimages/mdlogo.png" srcset="mdimages/mdlogo.png 2x" alt="logo">
-                                <img class="logo-light" src="mdimages/mdlogobw.png" srcset="mdimages/mdlogobw.png 2x" alt="logo">
-                            </a>
-                        </div>
+  </head>
+  <body class="nk-body body-wider mode-onepage">
+    <div class="nk-wrap">
+      <header
+        class="nk-header page-header is-transparent is-sticky is-shrink"
+        id="header"
+      >
+        <!-- Header @s -->
+        <div class="header-main">
+          <div class="header-container header-container-s1">
+            <div class="header-wrap">
+              <!-- Logo @s -->
+              <div
+                class="header-logo logo animated"
+                data-animate="fadeInDown"
+                data-delay=".65"
+              >
+                <a href="./" class="logo-link">
+                  <img
+                    class="logo-dark"
+                    src="mdimages/mdlogo.png"
+                    srcset="mdimages/mdlogo.png 2x"
+                    alt="logo"
+                  />
+                  <img
+                    class="logo-light"
+                    src="mdimages/mdlogobw.png"
+                    srcset="mdimages/mdlogobw.png 2x"
+                    alt="logo"
+                  />
+                </a>
+              </div>
 
-                        <!-- Menu Toogle @s -->
-                        <div class="header-nav-toggle">
-                            <a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
-                                <div class="toggle-line">
-                                    <span></span>
-                                </div>
-                            </a>
-                        </div>
+              <!-- Menu Toogle @s -->
+              <div class="header-nav-toggle">
+                <a
+                  href="#"
+                  class="navbar-toggle"
+                  data-menu-toggle="header-menu"
+                >
+                  <div class="toggle-line">
+                    <span></span>
+                  </div>
+                </a>
+              </div>
 
-                        <!-- Menu @s -->
-                        <div class="header-navbar header-navbar-s1">
-                            <nav class="header-menu justify-content-between" id="header-menu">
-                                <ul class="menu animated remove-animation" data-animate="fadeInDown" data-delay=".75">
-                                    <!-- <li class="menu-item"><a class="menu-link nav-link" href="#about">About</a></li> -->
-                                    <!-- <li class="menu-item"><a class="menu-link nav-link" href="#services">Features & Technologies</a></li>   
+              <!-- Menu @s -->
+              <div class="header-navbar header-navbar-s1">
+                <nav
+                  class="header-menu justify-content-between"
+                  id="header-menu"
+                >
+                  <ul
+                    class="menu animated remove-animation"
+                    data-animate="fadeInDown"
+                    data-delay=".75"
+                  >
+                    <!-- <li class="menu-item"><a class="menu-link nav-link" href="#about">About</a></li> -->
+                    <!-- <li class="menu-item"><a class="menu-link nav-link" href="#services">Features & Technologies</a></li>   
                                                                       -->
-                                    <li class="menu-item"><a class="menu-link nav-link" href="index.html#home">Home</a></li>     
-                                    <li class="menu-item"><a class="menu-link nav-link" href="index.html#problemsolution">Problems & Solution</a></li>                                    
-                                    <li class="menu-item"><a class="menu-link nav-link" href="index.html#stakeholders">Ecosystem</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="index.html#tokendistribution">Token Distribution</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="index.html#roadmap">Roadmap</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="index.html#team">Team</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="index.html#metaverse-career-academy">Metaverse Career Academy</a></li>
-                                </ul>
-                                <!-- <ul class="menu-btns align-items-center animated remove-animation" data-animate="fadeInDown" data-delay=".85">                                    
+                    <li class="menu-item">
+                      <a class="menu-link nav-link" href="index.html#home"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="menu-item">
+                      <a
+                        class="menu-link nav-link"
+                        href="index.html#problemsolution"
+                        >Problems & Solution</a
+                      >
+                    </li>
+                    <li class="menu-item">
+                      <a
+                        class="menu-link nav-link"
+                        href="index.html#stakeholders"
+                        >Ecosystem</a
+                      >
+                    </li>
+                    <li class="menu-item">
+                      <a
+                        class="menu-link nav-link"
+                        href="index.html#tokendistribution"
+                        >Token Distribution</a
+                      >
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link nav-link" href="index.html#roadmap"
+                        >Roadmap</a
+                      >
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link nav-link" href="index.html#team"
+                        >Team</a
+                      >
+                    </li>
+                    <li class="menu-item">
+                      <a
+                        class="menu-link nav-link"
+                        href="index.html#metaverse-career-academy"
+                        >Metaverse Career Academy</a
+                      >
+                    </li>
+                  </ul>
+                  <!-- <ul class="menu-btns align-items-center animated remove-animation" data-animate="fadeInDown" data-delay=".85">                                    
                                     <li><a target="_blank" href="https://github.com/meta-dojo" class="btn btn-md btn-round btn-outline btn-auto btn-primary"><span>Github</span></a></li>
                                     <li><a target="_blank" href="https://discord.com/invite/FfbDtBJMuZ" class="btn btn-md btn-round btn-outline btn-auto btn-primary"><span>Discord</span></a></li>
                                     <li><a target="_blank" href="https://linktr.ee/metadojo" class="btn btn-md btn-round btn-outline btn-auto btn-primary"><span>Linktree</span></a></li>
                                 </ul> -->
-                            </nav>
-                        </div><!-- .header-navbar @e -->
-                    </div>                                                
-                </div>
-            </div><!-- .header-main @e -->
+                </nav>
+              </div>
+              <!-- .header-navbar @e -->
+            </div>
+          </div>
+        </div>
+        <!-- .header-main @e -->
 
-			<!-- Banner @s -->
-            <div class="header-banner bg-theme-grad-alt">
-            <div class="nk-ovm shape-n" style="background-image: url('mdimages/dj.jpg'); opacity: .5;"></div>
-                <div class="nk-banner">
-                    <div class="banner banner-fs banner-single banner-with-token-box-s1" style="min-height: 100vh;">
-                        <div class="banner-wrap" >
-                            <div class="container">
-                                <div class="row align-items-center justify-content-center" style="margin-bottom: 30px; ">
-                                    <div class="col-sm-12 col-md-12 col-xl-12">
-                                        <div class="banner-caption tc-light text-center">
-                                            <div class="cpn-title" style="text-align: center">
-                                                <h1 class="glow" style="margin: 50px;">
-                                                    Introducing MetaDojo’s First Dojo Guardian - Tiger, the Protector!
-                                                </h1>
+        <!-- Banner @s -->
+        <div class="header-banner bg-theme-grad-alt">
+          <div
+            class="nk-ovm shape-n"
+            style="background-image: url('mdimages/dj.jpg'); opacity: 0.5"
+          ></div>
+          <div class="nk-banner">
+            <div
+              class="banner banner-fs banner-single banner-with-token-box-s1"
+              style="min-height: 100vh"
+            >
+              <div class="banner-wrap">
+                <div class="container">
+                  <div
+                    class="row align-items-center justify-content-center"
+                    style="margin-bottom: 30px"
+                  >
+                    <div class="col-sm-12 col-md-12 col-xl-12">
+                      <div class="banner-caption tc-light text-center">
+                        <div
+                          class="cpn-title col-sm-12 col-md-7"
+                          style="margin: 0 auto"
+                        >
+                          <h1 style="margin: 50px 0; text-align: center">
+                            <!-- <h1 class="glow" style="margin: 50px;"> -->
+                            Welcome to MetaDojo's Virtual HQ
+                          </h1>
 
-                                                <style>
-                                                    /* body {
+                          <style>
+                            /* body {
                                                       background-color: black;
                                                       font-family: cursive;
                                                     } */
-                                                    
-                                                    .glow {
-                                                      /* font-size: 80px; */
-                                                      color: #fff;
-                                                      text-align: center;
-                                                      animation: glow 1s ease-in-out infinite alternate;
-                                                    }
-                                                    
-                                                    @-webkit-keyframes glow {
-                                                      from {
-                                                        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-                                                      }
-                                                      
-                                                      to {
-                                                        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-                                                      }
-                                                    }
-                                                </style>
 
-                                                <div class="row align-items-center justify-content-center" style="margin-bottom: 30px; ">
-                                                    <div class="col-sm-12 col-md-8">
-                                                        <div style="margin-bottom: 30px; font-weight: bold;">
-                                                            <p>
-                                                                Long ago, in a faraway land, lived a Tiger Guardian. Legend says: if you have a Guardian in your Dojo, it shall bring immense protection to its Master and make every visitor of your Dojo happy and prosper. So what are you waiting for? Get in to win one now!
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-12 col-md-12">
-                                                        <div>
-                                                            <babylon id="babylon-viewer" skybox="true" ground="true">
-                                                                <model url="https://sagestoragedev.blob.core.windows.net/kn32ap/q5u5f31.glb">
-                                                                    <animation auto-start="true"></animation>
-                                                                </model>
-                                                                <templates>
-                                                                    <nav-bar>
-                                                                        <params hide-logo="true" hide-animation-control="true"></params>
-                                                                    </nav-bar>
-                                                                    <loading-screen>
-                                                                        <params static-loading-image="mdimages/loading.png"></params>
-                                                                    </loading-screen>
-                                                                </templates>
-                                                                <camera>
-                                                                    <behaviors>
-                                                                        <!-- enable and configure the framing behavior -->
-                                                                        <framing type="2" zoom-on-bounding-info="true" zoom-stops-animation="false"></framing>
-                                                                        <!-- enable default bouncing behavior -->
-                                                                        <bouncing type="1"></bouncing>
-                                                                        <auto-rotate type="1"></auto-rotate>
-                                                                    </behaviors>
-                                                                </camera>
-                                                                <scene render-in-background="true" >
-                                                                    <main-color r="0.4392" g="0.3411" b="0.8274"></main-color>
-                                                                    <!-- Enable and set the image processing configuration -->
-                                                                    <image-processing-configuration color-curves-enabled="true" exposure="3" contrast="2">
-                                                                        <!-- Examples of how to configure color curves --> 
-                                                                        <color-curves global-hue="1">
-                                                                        </color-curves>
-                                                                    </image-processing-configuration>
-                                                                </scene>
-                                                            </babylon>
-            
-                                                            <script>
-                                                                BabylonViewer.viewerManager
-                                                                    .getViewerPromiseById("babylon-viewer")
-                                                                    .then(function(viewer) {
-                                                                        viewer.onModelLoadedObservable.add(function (model) {
-                                                                            model.rootMesh.getScene().executeWhenReady(function () {
-                                                                                model.meshes.map((m) => {
-                                                                                    if (m.name.toLowerCase().includes(`_collider`) || m.name.includes(`_flag`) || m.name.toLowerCase().includes(`pond`)) {
-                                                                                        m.isVisible = false;
-                                                                                    }
-                                                                                });
-                                                                            });
-                                                                        });
-                                                                    })
-                                                            </script>
-            
-                                                            <style>
-                                                                nav-bar {
-                                                                    display: none !important;
-                                                                }
-                                                            </style>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                            .glow {
+                              /* font-size: 80px; */
+                              color: #fff;
+                              text-align: center;
+                              animation: glow 1s ease-in-out infinite alternate;
+                            }
 
-                                                <div
-                                                    class="row justify-content-center video-and-text-wrapper"
-                                                    style="
-                                                    flex: 1;
-                                                    padding-top: 0px !important;
-                                                    margin-bottom: 20px !important;
-                                                    "
-                                                >
-                                                    <div class="col-md-10" style="text-align: left; border: 1px solid #ccc!important;">
-                                                        <div style="padding: 15px;">
-                                                            <p style="font-weight: bold;font-size: large;">Gleam Campaign Tips:</p>
-                                                            <ol">
-                                                                <li style="list-style: auto;">Web browser BRAVE is not fully supported by Gleam. Please switch to a different browser e.g. Google Chrome.</li>
-                                                                <li style="list-style: auto;">If the region you reside in imposes restrictions on foreign links, try using a VPN.</li>
-                                                                <li style="list-style: auto;">Complete all tasks and do NOT log out or switch browsers before final submission.</li>
-                                                                <li style="list-style: auto;">A notification email will be sent to your email when all mandatory Gleam tasks are completed. If there is no email notification, that means your submission was not successful.</li>
-                                                            </ol>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
+                            @-webkit-keyframes glow {
+                              from {
+                                text-shadow: 0 0 10px #fff, 0 0 20px #fff,
+                                  0 0 30px #e60073, 0 0 40px #e60073,
+                                  0 0 50px #e60073, 0 0 60px #e60073,
+                                  0 0 70px #e60073;
+                              }
 
-                                <div>
-                                    <a class="e-widget no-button generic-loader" href="https://gleam.io/8TdoX/be-in-to-win-a-tiger-guardian-from-metadojo" rel="nofollow">Be in to win a Tiger Guardian from MetaDojo</a>
-                                </div>
+                              to {
+                                text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6,
+                                  0 0 40px #ff4da6, 0 0 50px #ff4da6,
+                                  0 0 60px #ff4da6, 0 0 70px #ff4da6,
+                                  0 0 80px #ff4da6;
+                              }
+                            }
+                          </style>
+                        </div>
+
+                        <div>
+                          <div
+                            class="row align-items-center justify-content-center"
+                            style="margin-bottom: 50px"
+                          >
+                            <div class="col-sm-12 col-md-8">
+                              <div
+                                style="
+                                  margin-bottom: 30px;
+                                  font-weight: 500;
+                                  text-align: left;
+                                "
+                              >
+                                <p>
+                                  Our special treasure hunt event will be
+                                  available between
+                                  <span style="font-weight: bold">
+                                    the 20th and 30th of April 2022.
+                                  </span>
+                                  To join, please make sure you access via a
+                                  <span style="font-weight: bold">
+                                    Chrome web browser on a desktop.
+                                  </span>
+                                </p>
+
+                                <ul class="list">
+                                  <li>
+                                    <span style="font-weight: bold">
+                                      Step 1:
+                                    </span>
+                                    Enter our virtual HQ.
+                                  </li>
+                                  <li>
+                                    <span style="font-weight: bold">
+                                      Step 2:
+                                    </span>
+                                    Walk around and find all 10 gold coins. The
+                                    progress bar on your top right corner
+                                    indicates how many you have successfully
+                                    collected.
+                                  </li>
+                                  <li>
+                                    <span style="font-weight: bold">
+                                      Step 3:
+                                    </span>
+                                    A Gleam register form will pop up once you
+                                    have discovered the last coin in a treasure
+                                    chest. Complete all tasks required to be in
+                                    the draw to win!
+                                  </li>
+                                </ul>
+
+                                <p style="margin: 30px 0 0; font-weight: bold">
+                                  Prizes:
+                                </p>
+                                <ul class="list">
+                                  <li>
+                                    1. One $DOT each for 240 lucky winners.
+                                  </li>
+                                  <li>
+                                    2. 100 USDT each for 10 lucky winners.
+                                  </li>
+                                </ul>
+                              </div>
                             </div>
 
-                        </div> 
+                            <div class="col-sm-12 col-md-12">
+                              <div>
+                                <babylon
+                                  id="babylon-viewer"
+                                  skybox="true"
+                                  ground="true"
+                                >
+                                  <model
+                                    url="https://sagestoragedev.blob.core.windows.net/kn32ap/q5u5f31.glb"
+                                  >
+                                    <animation auto-start="true"></animation>
+                                  </model>
+                                  <templates>
+                                    <nav-bar>
+                                      <params
+                                        hide-logo="true"
+                                        hide-animation-control="true"
+                                      ></params>
+                                    </nav-bar>
+                                    <loading-screen>
+                                      <params
+                                        static-loading-image="mdimages/loading.png"
+                                      ></params>
+                                    </loading-screen>
+                                  </templates>
+                                  <camera>
+                                    <behaviors>
+                                      <!-- enable and configure the framing behavior -->
+                                      <framing
+                                        type="2"
+                                        zoom-on-bounding-info="true"
+                                        zoom-stops-animation="false"
+                                      ></framing>
+                                      <!-- enable default bouncing behavior -->
+                                      <bouncing type="1"></bouncing>
+                                      <auto-rotate type="1"></auto-rotate>
+                                    </behaviors>
+                                  </camera>
+                                  <scene render-in-background="true">
+                                    <main-color
+                                      r="0.4392"
+                                      g="0.3411"
+                                      b="0.8274"
+                                    ></main-color>
+                                    <!-- Enable and set the image processing configuration -->
+                                    <image-processing-configuration
+                                      color-curves-enabled="true"
+                                      exposure="3"
+                                      contrast="2"
+                                    >
+                                      <!-- Examples of how to configure color curves -->
+                                      <color-curves global-hue="1">
+                                      </color-curves>
+                                    </image-processing-configuration>
+                                  </scene>
+                                </babylon>
+
+                                <script>
+                                  BabylonViewer.viewerManager
+                                    .getViewerPromiseById("babylon-viewer")
+                                    .then(function (viewer) {
+                                      viewer.onModelLoadedObservable.add(
+                                        function (model) {
+                                          model.rootMesh
+                                            .getScene()
+                                            .executeWhenReady(function () {
+                                              model.meshes.map((m) => {
+                                                if (
+                                                  m.name
+                                                    .toLowerCase()
+                                                    .includes(`_collider`) ||
+                                                  m.name.includes(`_flag`) ||
+                                                  m.name
+                                                    .toLowerCase()
+                                                    .includes(`pond`)
+                                                ) {
+                                                  m.isVisible = false;
+                                                }
+                                              });
+                                            });
+                                        }
+                                      );
+                                    });
+                                </script>
+
+                                <style>
+                                  nav-bar {
+                                    display: none !important;
+                                  }
+                                </style>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div
+                            class="justify-content-center video-and-text-wrapper"
+                            style="
+                              flex: 1;
+                              padding-top: 0px !important;
+                              margin-bottom: 20px !important;
+                            "
+                          >
+                            <div
+                              class="col-md-6"
+                              style="
+                                text-align: left;
+                                margin: 0 auto 60px;
+                                border: 1px solid #ccc !important;
+                              "
+                            >
+                              <div style="padding: 15px">
+                                <p style="font-weight: bold; font-size: large">
+                                  Tips:
+                                </p>
+                                <ol>
+                                  <li>
+                                    1. For the best user experience, we
+                                    recommend joining this event on a desktop
+                                    Chrome browser.
+                                  </li>
+                                  <li>
+                                    2. Complete all tasks and do NOT close the
+                                    tab before final submission.
+                                  </li>
+                                </ol>
+                              </div>
+                            </div>
+
+                            <div
+                              class="col-md-6"
+                              style="
+                                text-align: left;
+                                margin: 0 auto;
+                                background: #fff;
+                                color: #000000;
+                                padding: 20px 16px 78px;
+                                border-radius: 5px;
+                              "
+                            >
+                              <div style="padding: 15px; font-size: 14px">
+                                <p style="font-weight: 600; color: #000000">
+                                  By proceeding to the event, you are deemed to
+                                  agree to the following terms and conditions:
+                                </p>
+                                <ol>
+                                  <li>
+                                    1. I understand no changes can be made to
+                                    information once submitted.
+                                  </li>
+                                  <li>
+                                    2. I understand that winners will be
+                                    randomly selected and prizes will be
+                                    distributed to the wallet address supplied.
+                                  </li>
+                                  <li>
+                                    3. I understand that by participating in
+                                    this event, I agree for my email address to
+                                    be included in MetaDojo's mailing list.
+                                  </li>
+                                </ol>
+                              </div>
+
+                              <div style="text-align: center">
+                                <a
+                                  class="btn btn-lg btn-round btn-auto btn-primary"
+                                  style="margin: 30px 0 0"
+                                  href="https://app.metadojo.io"
+                                  rel="nofollow"
+                                  target="_blank"
+                                  >Enter MetaDojo HQ</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <!-- <div class="nk-ovm mask-b mask-contain-bottom"></div> -->
-                </div><!-- .nk-banner -->
-
-                <div  style="background-image: url('mdimages/dj.jpg');background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover; width: 100%; height: 100%;">
-                    
+                  </div>
                 </div>
-                
-                <!-- Place Particle Js -->
-                <div id="particles-bg" class="particles-container particles-bg"></div>
+              </div>
             </div>
-            <div class="gap-5x"></div>
-            <div class="gap-10x d-md-none"></div>
-            <div class="gap-5x d-sm-none"></div>
-			<!-- .header-banner @e -->   
-                     
-		</header>
-        <!-- About -->
+            <!-- <div class="nk-ovm mask-b mask-contain-bottom"></div> -->
+          </div>
+          <!-- .nk-banner -->
 
-        
-        <footer class="nk-footer">
-            <section style="padding-top: 20px !important;" class="section section-l section-footer pb-0 tc-light tc-light-alt bg-transparent ov-h">
-                <div class="ui-shape ui-shape-footer ui-shape-light"></div>
-                <div class="container">
-                    <!-- Block @s -->
-                    <div class="nk-block block-footer">
-                        
-                        <div class="footer-bottom section-sm">
-                            <div class="row justify-content-between align-items-center">
-                                <div class="col-12" style="text-align: center;" >
-                                    <!-- <a href="./" class="wgs-logo-s2 center">
+          <div
+            style="
+              background-image: url('mdimages/dj.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 100%;
+              height: 100%;
+            "
+          ></div>
+
+          <!-- Place Particle Js -->
+          <div id="particles-bg" class="particles-container particles-bg"></div>
+        </div>
+        <div class="gap-5x"></div>
+        <div class="gap-10x d-md-none"></div>
+        <div class="gap-5x d-sm-none"></div>
+        <!-- .header-banner @e -->
+      </header>
+      <!-- About -->
+
+      <footer class="nk-footer">
+        <section
+          style="padding-top: 20px !important"
+          class="section section-l section-footer pb-0 tc-light tc-light-alt bg-transparent ov-h"
+        >
+          <div class="ui-shape ui-shape-footer ui-shape-light"></div>
+          <div class="container">
+            <!-- Block @s -->
+            <div class="nk-block block-footer">
+              <div class="footer-bottom section-sm">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col-12" style="text-align: center">
+                    <!-- <a href="./" class="wgs-logo-s2 center">
                                         <img src="mdimages/meta-earth-only.png" srcset="mdimages/meta-earth-only.png" alt="logo" width="50%">
                                     </a> -->
 
-                                    <div style="display: flex; justify-content: space-around; margin-top: 10px;">
-                                        <ul style="display: flex; justify-content: space-around; min-width: 250px">
-                                            <li><a  href="https://twitter.com/MetaDojo_IO"><em style="color:#323232; font-size: 1.5rem;" class="fab fa-twitter"></em></a></li>
-                                            <li><a href="https://discord.com/invite/FfbDtBJMuZ"><em style="color:#323232; font-size: 1.5rem;" class="fab fa-discord"></em></a></li>
-                                            <li><a href="https://t.me/MetaDojoOfficial?"><em style="color:#323232; font-size: 1.5rem;" class="fab fa-telegram"></em></a></li>
-                                            <li><a href="https://github.com/meta-dojo"><em style="color:#323232; font-size: 1.5rem;" class="fab fa-github"></em></a></li>
-                                            <li><a href="https://metadojo.medium.com/"><em style="color:#323232; font-size: 1.5rem;" class="fab fa-medium-m"></em></a></li>
-                                            <li><a href="https://www.linkedin.com/company/meta-dojo/"><em style="color:#323232; font-size: 1.5rem;" class="fab fa-linkedin-in"></em></a></li>
-                                        </ul>
-                                    </div>                          
-                                </div>
-                            </div>
-                            <div class="row justify-content-between align-items-center" style="margin-top: 20px;">
-                                <div class="col-12" style="text-align: center;" >
-                                    <div class="copyright-text text-center">
-                                        <!-- <p style="color:black; margin-bottom: 0;">
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: space-around;
+                        margin-top: 10px;
+                      "
+                    >
+                      <ul
+                        style="
+                          display: flex;
+                          justify-content: space-around;
+                          min-width: 250px;
+                        "
+                      >
+                        <li>
+                          <a href="https://twitter.com/MetaDojo_IO"
+                            ><em
+                              style="color: #323232; font-size: 1.5rem"
+                              class="fab fa-twitter"
+                            ></em
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="https://discord.com/invite/FfbDtBJMuZ"
+                            ><em
+                              style="color: #323232; font-size: 1.5rem"
+                              class="fab fa-discord"
+                            ></em
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="https://t.me/MetaDojoOfficial?"
+                            ><em
+                              style="color: #323232; font-size: 1.5rem"
+                              class="fab fa-telegram"
+                            ></em
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="https://github.com/meta-dojo"
+                            ><em
+                              style="color: #323232; font-size: 1.5rem"
+                              class="fab fa-github"
+                            ></em
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="https://metadojo.medium.com/"
+                            ><em
+                              style="color: #323232; font-size: 1.5rem"
+                              class="fab fa-medium-m"
+                            ></em
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/company/meta-dojo/"
+                            ><em
+                              style="color: #323232; font-size: 1.5rem"
+                              class="fab fa-linkedin-in"
+                            ></em
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="row justify-content-between align-items-center"
+                  style="margin-top: 20px"
+                >
+                  <div class="col-12" style="text-align: center">
+                    <div class="copyright-text text-center">
+                      <!-- <p style="color:black; margin-bottom: 0;">
                                             hello@metadojo.io
                                         </p> -->
-                                        <p style="color:black"> © MetaDojo.io           
-                                        <script>
-                                            document.write(new Date().getFullYear());
-                                        </script> </p>
-                                    </div> 
-                                </div>
-                            </div>
-                        </div><!-- .row -->
-                    </div><!-- .block @e -->
+                      <p style="color: black">
+                        © MetaDojo.io
+                        <script>
+                          document.write(new Date().getFullYear());
+                        </script>
+                      </p>
+                    </div>
+                  </div>
                 </div>
-            </section>
-        </footer>
-	</div>
-	
-	<div class="preloader"><span class="spinner spinner-round"></span></div>
-	
-	<!-- JavaScript -->
-	<script src="assets/js/jquery.bundle.js?ver=1930"></script>
-	<script src="assets/js/scripts.js?ver=1930"></script>
-	<script src="assets/js/charts.js?ver=1930"></script>
-</body>
+              </div>
+              <!-- .row -->
+            </div>
+            <!-- .block @e -->
+          </div>
+        </section>
+      </footer>
+    </div>
 
+    <div class="preloader"><span class="spinner spinner-round"></span></div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/jquery.bundle.js?ver=1930"></script>
+    <script src="assets/js/scripts.js?ver=1930"></script>
+    <script src="assets/js/charts.js?ver=1930"></script>
+  </body>
 </html>
